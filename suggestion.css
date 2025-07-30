@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in width/height */
+  }
+  
+  body {
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.5) 50%
+      ),
+      url(https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+    height: 100%; /* Ensure the body element covers the full height */
+    min-height: 100vh; /* Make sure the page stretches to at least the viewport height */
+    width: 100%; /* Cover the entire width */
+  }
+  
+  .main {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+  }
+  
+  .icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+  }
+  
+  .links {
+    margin-bottom: 100px;
+  }
+  .sub-list {
+    color: #ffffff;
+  }
+  .content {
+    color: #ff7200;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 5px;
+  }
+  .one,
+  .second,
+  .third,
+  .fourth,
+  .fifth,
+  .sixth,
+  .seventh,
+  .eigth {
+    width: 1000px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
+  .i-1,
+  .i-2,
+  .i-3,
+  .i-4,
+  .i-5,
+  .i-6,
+  .i-7,
+  .i-8 {
+    width: 450px;
+    height: 450px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .content ul {
+    display: block;
+    padding: 0;
+  }
+  
+  .content ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  .content ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+  }
+  
+  .content ul li a:hover {
+    color: #ff7200;
+  }
+  
+  .logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  
+  .menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+  }
+  
+  ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+  }
+  
+  ul li a:hover {
+    color: #ff7200;
+  }
+  .cur{
+    color: #ff7200;
+    border-radius: 5px;
+  }
